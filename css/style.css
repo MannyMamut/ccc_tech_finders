@@ -28,6 +28,32 @@ margin-right: 1em;
 
 /* Aquí comienzan los estilos para content hero */
 
+#hero {
+  height: 80vh;
+  background-image: url("https://trello-attachments.s3.amazonaws.com/5a8ccd107ff02541ce75cb9e/5a8ce78672add39d3e7d6007/6bbe5a9c5987df74c3c2a598841c8867/work.jpg");
+  background-size: cover;
+}
+
+.content_hero{
+  position: relative;
+
+}
+.content_hero form{
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-40%);
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero .container,
+#hero .row,
+#hero .col,
+#hero .content_hero{
+  height: 100%;
+}
+
 /* Aquí terminan los estilos para content hero */
 
 
