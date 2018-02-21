@@ -2,6 +2,25 @@
 /* Aquí comienzan los estilos para header */
 .header{
   background-color: #FAFAFA;
+
+}
+.header .site-branding{
+  display:flex;
+  justify-content: space-between;
+}
+.header .image-logo{
+  margin-left: 1em;
+}
+.header a.nav-btn{
+margin-right: 1em;
+
+}
+.header .menuizq{
+  justify-self:flex-end;
+  justify-content: space-between;
+}
+.icono5000{
+  padding-right: 1em;
 }
 /* Aquí terminan los estilos para header */
 
