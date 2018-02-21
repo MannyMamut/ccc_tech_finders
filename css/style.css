@@ -1,5 +1,27 @@
-/* Aquí comienzan los estilos para header */
 
+/* Aquí comienzan los estilos para header */
+.header{
+  background-color: #FAFAFA;
+
+}
+.header .site-branding{
+  display:flex;
+  justify-content: space-between;
+}
+.header .image-logo{
+  margin-left: 1em;
+}
+.header a.nav-btn{
+margin-right: 1em;
+
+}
+.header .menuizq{
+  justify-self:flex-end;
+  justify-content: space-between;
+}
+.icono5000{
+  padding-right: 1em;
+}
 /* Aquí terminan los estilos para header */
 
 
@@ -37,5 +59,31 @@
 
 
 /* Aquí comienzan los estilos para footer */
+.contactos{
+  display:flex;
+  background-color: white;
+
+}
+.contactos .contacto{
+  background-color: orange;
+  padding: 1.2em;
+  border: 5px solid orange;
+  border-radius: 50%;
+  margin: 50px;
+
+
+}
+.contactos>.contacto>a{
+  color: white;
+  font-size: 1.6em;
+  display: block;
+  width: 1.6em;
+  height: 1.6em;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.contactos>.contacto>a:hover{
+  background-color: blue;
+}
 
 /* Aquí terminan los estilos para footer */
