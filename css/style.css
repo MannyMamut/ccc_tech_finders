@@ -33,5 +33,31 @@ margin-right: 1em;
 
 
 /* Aquí comienzan los estilos para footer */
+.contactos{
+  display:flex;
+  background-color: white;
+
+}
+.contactos .contacto{
+  background-color: orange;
+  padding: 1.2em;
+  border: 5px solid orange;
+  border-radius: 50%;
+  margin: 50px;
+
+
+}
+.contactos>.contacto>a{
+  color: white;
+  font-size: 1.6em;
+  display: block;
+  width: 1.6em;
+  height: 1.6em;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.contactos>.contacto>a:hover{
+  background-color: blue;
+}
 
 /* Aquí terminan los estilos para footer */
